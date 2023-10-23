@@ -60,6 +60,16 @@ public class CommonUtil {
 
     }
 
+    public static TreeNode createDummyTree2(){
+        TreeNode node6 = new TreeNode(6,null,null);
+        TreeNode leafNode1 = new TreeNode(1,null,null);
+        TreeNode leafNode3 = new TreeNode(3,null,null);
+        TreeNode node4 = new TreeNode(4,leafNode1,leafNode3);
+        TreeNode root = new TreeNode(10,node6,node4);
+        return root;
+
+    }
+
     public static List<Integer> getDummyArrays(){
        return List.of(2,4,5,7,9,10,100,6,5,3,8);
     }
