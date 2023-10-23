@@ -11,7 +11,7 @@ public class TrappingRainWater {
 
     public static void main(String[] args) {
       //  int arr[] = {3,1,5,2,4};
-        int arr[] = {3,0,2,0,4};
+        int arr[] = {4,2,0,3,2,5};
         int waterCollected = getWater(arr);
         System.out.println("Water collected : "+waterCollected);
     }
